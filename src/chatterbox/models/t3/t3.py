@@ -158,7 +158,6 @@ class T3(nn.Module):
             input_ids=None,
             # position_ids=position_ids, # TODO? ROPE should be fine?
             inputs_embeds=embeds,
-            output_hidden_states=True,
             return_dict=True,
             use_cache=(not training),
         )
