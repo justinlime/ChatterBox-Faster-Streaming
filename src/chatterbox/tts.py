@@ -562,4 +562,3 @@ class ChatterboxTTS:
                 print(f"Total audio duration: {metrics.total_audio_duration:.3f}s")
                 print(f"RTF (Real-Time Factor): {metrics.rtf:.3f}")
                 print(f"Total chunks yielded: {metrics.chunk_count}")
->>>>>>> d54beb9 (Streaming added)
