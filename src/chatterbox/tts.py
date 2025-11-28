@@ -388,7 +388,6 @@ class ChatterboxTTS:
             past_key_values=None,
             use_cache=True,
             output_attentions=True,
-            return_dict=True,
         )
         past = output.past_key_values
 
@@ -442,8 +441,7 @@ class ChatterboxTTS:
                 inputs_embeds=next_token_embed,
                 past_key_values=past,
                 output_attentions=True,
-                return_dict=True,
-            )
+            e
             past = output.past_key_values
 
     def _process_token_buffer(
