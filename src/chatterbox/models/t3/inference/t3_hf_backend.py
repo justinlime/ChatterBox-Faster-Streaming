@@ -93,7 +93,6 @@ class T3HuggingfaceBackend(LlamaPreTrainedModel, GenerationMixin):
             past_key_values=past_key_values,
             use_cache=use_cache,
             output_attentions=output_attentions,
-            output_hidden_states=False,
             return_dict=False,
             cache_position=cache_position,
             max_position=max_position,
